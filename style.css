@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: #B9E4E8;
+    
+}
+
+#heading{
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.mainCard{
+    background-color: #167D8D;
+    color: #EEEEEE;
+    width: 50%;
+    margin: auto;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1.2rem;
+    flex-wrap: wrap;
+    padding: 0.6rem;
+}
+#options{
+    width: 80%;
+    
+}
+#options p{
+    
+    padding: 0.5rem;
+    background-color: #B9E4E8;
+    color: black;
+    border: 1px solid black;
+    margin-bottom: 0.3rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.buttons button{
+    padding: 0.3rem 0.7rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: #071B2B;
+    color: white;
+}
+.correct{
+    background-color: rgb(2, 174, 2);
+    color: white;
+    padding: 0.5rem;
+}
+.incorrect{
+    background-color: red;
+    color: white;
+    padding: 0.5rem;
+}
+.finalScore{
+    font-size: 2rem;
+}
